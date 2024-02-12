@@ -1,0 +1,15 @@
+# Test
+
+```elixir
+Mix.install([:jason])
+```
+
+## Section
+
+This is just some test!
+
+```elixir
+%{a: 1, b: 2, c: 'three'}
+|> Jason.encode!()
+|> IO.puts()
+```
